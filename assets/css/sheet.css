@@ -12,17 +12,60 @@ body {
     color: darkslategray
 }
 
+h1, h2, h3 {
+    font-family: Roboto, sans-serif;
+    color: darkslategray;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+hr {
+    border-bottom: 2px solid darkslategray;
+    margin: 1rem 1rem 9rem 1rem;
+}
 /* logo */
 
 #logo {
     margin: 2rem;
     font-family: Roboto, sans-serif;
     font-size: xxx-large;
+    text-decoration: none;
     display: flex;
     justify-content: space-around
 }
 
+/* nav elements */
+
 nav {
     display:flex;
     justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: large;
+    color: darkslategray;
+}
+
+a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+/* content */
+
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+div > p {
+    width: 600px;
+}
+
+/* footer */
+footer {
+    height: 50px
 }
