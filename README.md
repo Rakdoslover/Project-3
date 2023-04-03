@@ -16,3 +16,7 @@ Switched out the background-color for the tables to get a more aesthetic color.
 
 The last page is a description about me and who i am.
 I used a copy of the index.html to create the background.
+Added a longer description about my background and made it function properly on all screen sizes.
+
+Having some trouble getting the published version on github to look like the preview one on Gitpod.
+Can't really seem to get why the versions are differing. 
