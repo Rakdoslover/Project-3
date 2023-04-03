@@ -83,6 +83,45 @@ div > p {
     margin: 2rem;
 }
 
+
+/* exercises */
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+.exercise-outer{
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+#deadlift{
+    height: inherit;
+    width: inherit;
+    margin: 2rem;
+}
+
+#squat{
+    height: inherit;
+    width: inherit;
+    margin: 2rem;
+}
+
+#calf-raise{
+    height: inherit;
+    width: inherit;
+    margin: 2rem;
+}
+
+#hip-thruster{
+    height: inherit;
+    width: inherit;
+    margin: 2rem;
+}
 /* footer */
 
 footer {
