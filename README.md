@@ -8,3 +8,4 @@ Used Font Awesome to get the som icons for social media to the footer, also used
 
 Inserted a hero-image and fixed the outer borders for it. It now shows up nicely on both a smaller and larger screen. As of writing I have not tried it out on my own phone yet.
 
+Created a session page containing tables for and layput of a session with the exercises.

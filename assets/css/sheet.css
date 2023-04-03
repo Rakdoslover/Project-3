@@ -128,6 +128,43 @@ h2{
     width: inherit;
     margin: 2rem;
 }
+
+/* session */
+
+.session-outer{
+    height: 80%;
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+#session-image{
+    height: inherit;
+    width: inherit;
+    margin: 2rem;
+}
+
+
+/* table element */
+
+.flex-box-session{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: 2rem;
+}
+table, th, td{
+    border: 1px solid darkslategray;
+}
+
 /* footer */
 
 footer {
