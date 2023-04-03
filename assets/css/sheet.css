@@ -99,6 +99,12 @@ h2{
     margin:auto;
 }
 
+#exercise-image{
+    height: inherit;
+    width: inherit;
+    margin: 2rem;
+}
+
 #deadlift{
     height: inherit;
     width: inherit;
