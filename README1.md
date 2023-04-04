@@ -7,7 +7,7 @@ For example; Love Running is a site that hopes to help keep people motivated to 
 Coaching by Oscar is a site dedicated to PT-clients of mine, both new and old. It's designed to inspire them with sessions they've already done or maybe some they haven't yet got around to trying. 
 The site contains both a page for the actual session and a page with instructions.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Screenshot of the home page](assets/image/home-page.jpg "home page")
 
 ## Features 
 
@@ -17,71 +17,94 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all four pages, the full responsive navigation bar includes links to the Home page, Exercise list, Session page and About me page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - I've also included so that the title also takes you back the Home page.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Screenshot of the Nav bar](assets/image/nav-bar.jpg "Nav bar")
 
-- __The landing page image__
+- __The hero images__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The hero image on the Home page is supposed to symbolize the freedom of running and working out.
+  - Each page has a picture symbolizing the pages subject, like exercises and session have a barbell and track field respectively.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Screenshot home page picture](assets/image/hero-image.jpg "Hero image on home page")
+![Screenshot exercise page picture](assets/image/hero-image-exercise.jpg "Hero image on exercise page")
+![Screenshot session page picture](assets/image/hero-image-session.jpg "Hero image on session page")
 
-- __Club Ethos Section__
+- __Introduction page__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The purpose of the introduction page is give the reader a soft spot to land on before choosing which way they wanna go first (exercises/sessions/about)
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Exercises page__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - Here the user gets information on the different kind of exercises contained in the sessions.
+  - Every exercises is followed by both an instruction and a GIF showing off the movement. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Screenshot of the exercise page](assets/image/exercises-page.jpg "Picture of the exercise page")
+
+- __Session page__
+
+  - The sessions you find here are session tried by clients both old and new.
+  - Sessions are divided into different kind of groups based on what you want to achieve.
+  - Tables are made for each session with information on what's included in your workout.
+
+  ![Screenshot of the session page](assets/image/session-page.jpg "Picture of the session page")
+
+- __About page__
+
+  - Here on the About page you can find more information about med as a PT and my earlier background.
+
+  ![Screenshot of the about page](assets/image/about-page.jpg "Picture of the about page")
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Coaching b Oscar. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media, it's also accessible on all of the pages.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Screenshot of the footer](assets/image/footer-bar.jpg "Picture of the footer")
 
 ### Features Left to Implement
 
-- Another feature idea
+- Additional sessions or maybe a folder for them, some way categorize them.
+- Additional exercises and a way to categorize them.
+- A feature to submit a contact request.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- __Home page__
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+    - Tested the logo link to the home page.
+    - Tested all the nav links without any problem.
+    - Tested the footer link to instagram, it opened an external window.
+    - Tested the responsiveness down to 270px without a problem.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+![Screenshot of responsive home](assets/image/responsive-home.jpg "Picture of responsive home page")
+- __Exercises page__
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+    - Tested the logo link to the home page.
+    - Tested all the nav links without any problem.
+    - Tested the footer link to instagram, it opened an external window.
+    - Tested the responsiveness down to 270px without a problem.
 
+![Screenshot of responsive exercises](assets/image/responsive-exercise.jpg "Picture of responsive exercises page")
+- __Session page__
 
+    - Tested the logo link to the home page.
+    - Tested all the nav links without any problem.
+    - Tested the footer link to instagram, it opened an external window.
+    - Tested the responsiveness down to 270px without a problem.
+
+![Screenshot of responsive session](assets/image/responsive-session.jpg "Picture of responsive session page")
+- __About page__
+
+    - Tested the logo link to the home page.
+    - Tested all the nav links without any problem.
+    - Tested the footer link to instagram, it opened an external window.
+    - Tested the responsiveness down to 270px without a problem.
+
+![Screenshot of responsive about](assets/image/responsive-about.jpg "Picture of responsive about page")
 ### Validator Testing 
 
 - HTML
