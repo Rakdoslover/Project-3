@@ -108,9 +108,9 @@ In this section, you should go over the different parts of your project, and des
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frakdoslover.github.io%2FProject-3%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frakdoslover.github.io%2FProject-3%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv#errors)
 
 ### Unfixed Bugs
 
@@ -121,32 +121,26 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository associated with the Project-3, navigate to the Settings tab.
+  - From the branch section drop-down menu, select the Main Branch and press save.
+  - Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://rakdoslover.github.io/Project-3/
 
 
-## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+## Credits  
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Got the tip on basing the structure on the flex-function from my mentor Lauren Nicole. She gave me links to sites like [CSS-TRICKS](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) & [W3 Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp).
+- I've also used the template made by CI published on Github as a layout, can be found here [GitHub](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode).
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source 
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- The photos used on the home, exercise, session are fetched from [Pixabay](https://pixabay.com) & [Stocksnap](https://stocksnap.io/)
+- The moving images (GIFs) are old copies I've gotten thourgh my line of work. But the source can be found on pages such as [Gym Visual](https://gymvisual.com)
+- The photo of me is taken from my own folders.
 
 ## Other General Project Advice
 

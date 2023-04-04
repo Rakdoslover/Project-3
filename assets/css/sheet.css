@@ -225,6 +225,6 @@ footer h3 {
 
 /* media query */
 
-@media screen {
-    min-width: 800px;
+@media screen and (max-width: 800px){ 
+    
 }
