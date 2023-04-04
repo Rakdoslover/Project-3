@@ -125,7 +125,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://rakdoslover.github.io/Project-3/
 
 
 ## Credits 
@@ -142,7 +142,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
+- The photos used on the home and sign up page are from This Open Source 
 - The images used for the gallery page were taken from this other open source site
 
 
