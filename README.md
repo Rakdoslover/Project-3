@@ -1,32 +1,156 @@
-New project created to make a site about training.
+# Coaching by Oscar
+ 
 
-On this project i've tried to use the display: flex; function to make the different divs work properly.
-Collected all photos from stock sites like, stocksnap.io, rawpixel.com and pixabay.com, except for one of them that's a picture of me.
-Got some useful tips and tricks from w3schools.com
+Coaching by Oscar is a site dedicated to PT-clients of mine, both new and old. It's designed to inspire them with sessions they've already done or maybe some they haven't yet got around to trying. 
+The site contains both a page for the actual session and a page with instructions.
 
-Index page
-1. Tried the flex function on the nav and it worked great.
-2. After the nav function I aligned the content on main page and created a footer.
-3. Used Font Awesome to get the some icons for social media to the footer, also used a little help from an old code we used in an earlier project to help get the footer right.
-4. Inserted a hero-image and fixed the outer borders for it. It now shows up nicely on both a smaller and larger screen. As of writing I have not tried it out on my own phone yet.
+![Screenshot of the home page](assets/image/home-page.jpg "home page")
 
-Exercise page
-1. Copied the index page to make afoundation for the exercise page.
-2. Went through some of the sites mentioned at the top for some inspiration to the various pages hero-images.
-3. Got a couple of GIFs symbolizing the exercise movements
-4. Put in a couple of divs with the flex function to make the page work nicely on the different screens.
+## Features 
 
-Session Page
-1. Created a session page containing tables for and layput of a session with the exercises.
-2. Mixtured quite awhile with the layout and settle for a center-oriented view.
-3. Switched out the background-color for the tables to get a more aesthetic color.
-4. Came back again after the About page was done to change and add the last table fixes in css.
+### Existing Features
 
-About page
-1. The last page is a description about me and who i am.
-2. I used a copy of the index.html to create the background.
-3. Added a longer description about my background and made it function properly on all screen sizes.
+- __Navigation Bar__
 
-Deployment
-1. Having some trouble getting the published version on github to look like the preview one on Gitpod.
-Can't really seem to get why the versions are differing. 
+  - Featured on all four pages, the full responsive navigation bar includes links to the Home page, Exercise list, Session page and About me page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - I've also included so that the title also takes you back the Home page.
+
+![Screenshot of the Nav bar](assets/image/nav-bar.jpg "Nav bar")
+
+- __The hero images__
+
+  - The hero image on the Home page is supposed to symbolize the freedom of running and working out.
+  - Each page has a picture symbolizing the pages subject, like exercises and session have a barbell and track field respectively.
+
+![Screenshot home page picture](assets/image/hero-image.jpg "Hero image on home page")
+![Screenshot exercise page picture](assets/image/hero-image-exercise.jpg "Hero image on exercise page")
+![Screenshot session page picture](assets/image/hero-image-session.jpg "Hero image on session page")
+
+- __Introduction page__
+
+  - The purpose of the introduction page is give the reader a soft spot to land on before choosing which way they wanna go first (exercises/sessions/about)
+
+
+- __Exercises page__
+
+  - Here the user gets information on the different kind of exercises contained in the sessions.
+  - Every exercises is followed by both an instruction and a GIF showing off the movement. 
+
+![Screenshot of the exercise page](assets/image/exercises-page.jpg "Picture of the exercise page")
+
+- __Session page__
+
+  - The sessions you find here are session tried by clients both old and new.
+  - Sessions are divided into different kind of groups based on what you want to achieve.
+  - Tables are made for each session with information on what's included in your workout.
+
+  ![Screenshot of the session page](assets/image/session-page.jpg "Picture of the session page")
+
+- __About page__
+
+  - Here on the About page you can find more information about med as a PT and my earlier background.
+
+  ![Screenshot of the about page](assets/image/about-page.jpg "Picture of the about page")
+
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites for Coaching b Oscar. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media, it's also accessible on all of the pages.
+
+![Screenshot of the footer](assets/image/footer-bar.jpg "Picture of the footer")
+
+### Features Left to Implement
+
+- Additional sessions or maybe a folder for them, some way categorize them.
+- Additional exercises and a way to categorize them.
+- A feature to submit a contact request.
+
+## Testing 
+
+- __Home page__
+
+    - Tested the logo link to the home page.
+    - Tested all the nav links without any problem.
+    - Tested the footer link to instagram, it opened an external window.
+    - Tested the responsiveness down to 270px without a problem.
+
+![Screenshot of responsive home](assets/image/responsive-home.jpg "Picture of responsive home page")
+- __Exercises page__
+
+    - Tested the logo link to the home page.
+    - Tested all the nav links without any problem.
+    - Tested the footer link to instagram, it opened an external window.
+    - Tested the responsiveness down to 270px without a problem.
+
+![Screenshot of responsive exercises](assets/image/responsive-exercise.jpg "Picture of responsive exercises page")
+- __Session page__
+
+    - Tested the logo link to the home page.
+    - Tested all the nav links without any problem.
+    - Tested the footer link to instagram, it opened an external window.
+    - Tested the responsiveness down to 270px without a problem.
+
+![Screenshot of responsive session](assets/image/responsive-session.jpg "Picture of responsive session page")
+- __About page__
+
+    - Tested the logo link to the home page.
+    - Tested all the nav links without any problem.
+    - Tested the footer link to instagram, it opened an external window.
+    - Tested the responsiveness down to 270px without a problem.
+
+![Screenshot of responsive about](assets/image/responsive-about.jpg "Picture of responsive about page")
+
+Tested the site on both Edge and Chrome, worked fine on both.
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frakdoslover.github.io%2FProject-3%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frakdoslover.github.io%2FProject-3%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv#errors)
+
+### Unfixed Bugs
+
+
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository associated with the Project-3, navigate to the Settings tab.
+  - From the branch section drop-down menu, select the Main Branch and press save.
+  - Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://rakdoslover.github.io/Project-3/
+
+
+## Credits  
+
+### Content 
+
+- Got the tip on basing the structure on the flex-function from my mentor Lauren Nicole. She gave me links to sites like [CSS-TRICKS](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) & [W3 Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp).
+- I've also used the template made by CI published on Github as a layout, can be found here [GitHub](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode).
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+### Media
+
+- The photos used on the home, exercise, session are fetched from [Pixabay](https://pixabay.com) & [Stocksnap](https://stocksnap.io/)
+- The moving images (GIFs) are old copies I've gotten thourgh my line of work. But the source can be found on pages such as [Gym Visual](https://gymvisual.com)
+- The photo of me is taken from my own folders.
+
+## Other General Project Advice
+
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
+  - Make sure to keep the messages in the imperative mood 
+
+- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+
+- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
