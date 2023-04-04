@@ -172,6 +172,7 @@ table{
 table, th, td{
     border: 1px solid white;
     background-color: darkslategray;
+    letter-spacing: 1px;
 }
 
 /* about */
@@ -200,7 +201,7 @@ footer {
 footer h3 {
     color: white;
     text-align: center;
-    margin: 2rem;
+    padding: 10px;
 }
 
 .contacts {
@@ -220,4 +221,10 @@ footer h3 {
     margin: 1%;
     padding: 5%;
     color: white;
+}
+
+/* media query */
+
+@media screen {
+    min-width: 800px;
 }
