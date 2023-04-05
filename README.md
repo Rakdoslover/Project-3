@@ -4,6 +4,10 @@
 Coaching by Oscar is a site dedicated to PT-clients of mine, both new and old. It's designed to inspire them with sessions they've already done or maybe some they haven't yet got around to trying. 
 The site contains both a page for the actual session and a page with instructions.
 
+The target audience for this site would be clients that I've been working with since before or new clients that i've just started to work with.
+The purpose would be for them to remember exercises we've done before and how they could implement/incorporate them into their own sessions.
+For the general visitor there will be future updates that's more directed towrads them, like a contact form and a booking system.
+
 ![Screenshot of the home page](assets/image/home-page.jpg "home page")
 
 ## Features 
@@ -137,4 +141,3 @@ The live link can be found here - https://rakdoslover.github.io/Project-3/
 - The photos used on the home, exercise, session are fetched from [Pixabay](https://pixabay.com) & [Stocksnap](https://stocksnap.io/)
 - The moving images (GIFs) are old copies I've gotten thourgh my line of work. But the source can be found on pages such as [Gym Visual](https://gymvisual.com)
 - The photo of me is taken from my own folders.
-

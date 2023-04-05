@@ -173,6 +173,7 @@ table, th, td{
     border: 1px solid white;
     background-color: darkslategray;
     letter-spacing: 1px;
+    padding: 3px;
 }
 
 /* about */
@@ -232,5 +233,10 @@ footer h3 {
 /* media query */
 
 @media screen and (max-width: 800px){ 
-    
+    table {
+        border: 1px solid white;
+        background-color: darkslategray;
+        letter-spacing: 2px;
+        padding: 2px;
+    }
 }
