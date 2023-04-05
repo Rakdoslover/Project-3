@@ -177,6 +177,12 @@ table, th, td{
 
 /* about */
 
+#about-image{
+    height: inherit;
+    width: inherit;
+    margin: 2rem;
+}
+
 .flex-box-about {
     display: flex;
     justify-content: space-evenly;
